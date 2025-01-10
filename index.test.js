@@ -1,6 +1,9 @@
 //connecting the functions from the logic.js
 const { convert } = require('./logic');
 
+test("That jest is working",()=>{
+    expect(2+6).toBe(8)
+});
 
 // test if conversion occurs correctly to 2dp
 test('conversion with 2dp', () => {
