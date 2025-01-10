@@ -1,17 +1,18 @@
+//connecting the functions from the logic.js
 const { convert } = require('./logic');
 
 
 // test if conversion occurs correctly to 2dp
-test('converts bytes to kilobytes correctly with 2dp', () => {
+test('conversion with 2dp', () => {
   expect(convert(1024.435, 'bytes', 'kilobytes')).toBe(1.00);
 });
 
 // testing negative numbers 
-test('handles negative input', () => {
-  expect(() => convert(-10, 'bytes', 'kilobytes')).toThrow("Invalid Input");
+test('negative input', () => {
+  expect(() => convert(-145, 'megabytes', 'kilobytes')).toThrow("Invalid Input");
 });
 
 //testing inputs which contain otherthan digits 
-test('handles letter input', () => {
-  expect(() => convert('abc', 'bytes', 'kilobytes')).toThrow("Invalid Input");
+test('letter input', () => {
+  expect(() => convert('fgd', 'bytes', 'bytes')).toThrow("Invalid Input");
 });
