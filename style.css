@@ -30,3 +30,7 @@ body, html {
     margin-bottom: 20px; /* provides a gap between both drop down boxes*/
     margin-top: 20px;
   }
+
+  #convert-button{
+    margin-bottom: 10px;
+  }
