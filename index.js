@@ -23,7 +23,7 @@ function converting() {
 
   
   // to not have any decimal points   
-document.getElementById('output-box').value = (convertedvalue); 
+  document.getElementById('output-box').value = Math.round(convertedvalue); 
                                        
 }
 // display the results when the button is clicked
