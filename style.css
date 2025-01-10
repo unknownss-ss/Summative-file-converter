@@ -31,6 +31,18 @@ body, html {
     margin-top: 20px;
   }
 
+/* Styling for all the boxes so they are accurate and same proportions */
+#input-box, #output-box, #select-size, #select-size-output {
+    height: 40px; 
+    width: 200px; 
+    padding: 5px; 
+    font-size: 1rem; 
+    border: 1px solid #ccc;
+    border-radius: 4px; 
+    box-sizing: border-box; 
+  }
+  
+/*styling for the buttons */
   #convert-button, #reset-button{
     margin-bottom: 10px;
   }
