@@ -25,7 +25,7 @@ function converting() {
 
   
   // to not have any decimal points   
-  document.getElementById('output-box').value = Math.round(convertedvalue); 
+  document.getElementById('output-box').value = convertedvalue.toFixed(2); 
                                        
 }
 // display the results when the button is clicked
