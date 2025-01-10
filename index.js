@@ -1,6 +1,6 @@
 // function to convert the file from the input
 function converting() {
-    //store the iputs into variables 
+    //store the inputs into variables 
     const value = parseFloat(document.getElementById('input-box').value);
     const unit = document.getElementById('select-size').value;
     const outputunit = document.getElementById('select-size-output').value;
@@ -13,6 +13,8 @@ function converting() {
     gigabytes: 1024 * 1024 * 1024,
   
   };
+
+  //if value inputted has other than numbers display error message 
   if (isNaN(value) || value <= 0) {
     document.getElementById('output-box').value = "Invalid Input";
     return;
@@ -41,6 +43,8 @@ function reset(){
   // to be completed when the reset button is clicked
   document.getElementById('reset-button').addEventListener('click',reset);
 
+
+  // function to switch the data around
   function switching(){
     [document.getElementById("input-box").value, document.getElementById("output-box").value] =
     [document.getElementById("output-box").value, document.getElementById("input-box").value];
@@ -49,5 +53,6 @@ function reset(){
     [document.getElementById("select-size").value, document.getElementById("select-size-output").value] =
     [document.getElementById("select-size-output").value, document.getElementById("select-size").value];
   }
+  // switch to occur when button is clicked
   document.getElementById("switch-button").addEventListener('click',switching);
   
