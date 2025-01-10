@@ -12,6 +12,16 @@
       <!-- Input box for the user to enter the file size --> 
     <div class="input-wrapper">
         <input type="text" id="input-box" placeholder="Enter file size value: " />
+
+        <!-- Creating a dropdown box for the users current file size-->
+        <select id="select-size">
+            <!-- Displayed text for the first option-->
+            <option value= "Select">Select size: </option>
+            <option value="bytes">Bytes</option>
+            <option value="kilobytes">Kilobytes</option>
+            <option value="megabytes">Megabytes</option>
+            <option value="gigabytes">Gigabytes</option>
+      </select>
     </div>
 
 
@@ -19,6 +29,14 @@
     <div class="output-wrapper">
         <!--Readonly box for the calculation to be displayed-->
         <input type="text" id="output-box" placeholder="Result" readonly />
+        
+        <!-- dropdown box with the size which the user wants to convert to-->
+        <select id="select-size-output">
+            <option value="bytes">Bytes</option>
+            <option value="kilobytes">Kilobytes</option>
+            <option value="megabytes">Megabytes</option>
+            <option value="gigabytes">Gigabytes</option>
+        </select>
     </div>
 </body>
 </html>

@@ -1,18 +1,18 @@
-/* Reset margins and padding for body and html */
+
 body, html {
     margin: 0;
     padding: 0;
-    height: 100%; /* Ensures the full viewport height is covered */
+    height: 100%; 
   }
   
-  /* Container to hold and center the heading */
+  /* function to ensure the heading is in the center */
   .container {
-    display: flex; /* Enables Flexbox layout */
+    display: flex; 
     flex-direction: column;
-    justify-content: center; /* Centers horizontally */
-    align-items: center; /* Centers vertically */
-    height: 100vh; /* Full viewport height */
-    background-color: #f0f8ff; /* Optional, for visualization */
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh; 
+    background-color: #f0f8ff; 
   }
   
   /* Styling the heading */
@@ -22,3 +22,11 @@ body, html {
     margin-bottom : 20px;
   }
   
+  /*styling for the drop down boxes*/
+  .input-wrapper, .output-wrapper {
+    display: flex;
+    gap: 15px; 
+    justify-content: center; 
+    margin-bottom: 20px; /* provides a gap between both drop down boxes*/
+    margin-top: 20px;
+  }
