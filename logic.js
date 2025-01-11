@@ -7,13 +7,13 @@ const convertingby = {
   
   function convert(value,inputUnit,outputUnit) {
     if (isNaN(value) || value <= 0) {
-      throw new Error("Invalid Input");
+      return 'error';
     }
   
     const bytesConversion = value * convertingby[inputUnit];
     const convertedValue = bytesConversion / convertingby[outputUnit];
   
-    return Math.round(convertedValue * 100) / 100; // Round to 2 decimal places
+    return parseFloat(convertedValue.toFixed(2)); // Round to 2 decimal places
   }
   
   module.exports = { convert };

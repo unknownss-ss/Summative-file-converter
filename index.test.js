@@ -12,10 +12,10 @@ test('conversion with 2dp', () => {
 
 // testing negative numbers 
 test('negative input', () => {
-  expect(() => convert(-145, 'megabytes', 'kilobytes')).toThrow("Invalid Input");
+  expect(convert(-145, 'megabytes', 'kilobytes')).toBe('error');
 });
 
 //testing inputs which contain otherthan digits 
 test('letter input', () => {
-  expect(() => convert('fgd', 'bytes', 'bytes')).toThrow("Invalid Input");
+  expect(convert('fgd', 'bytes', 'bytes')).toBe('error');
 });
