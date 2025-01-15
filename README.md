@@ -204,6 +204,7 @@ By working on each ticket and developing the app, the kanban board is updated au
 <br>
 
 ## Final product 
+https://unknownss-ss.github.io/Summative-file-converter/ 
 Now that all the tickets/issues and sprints have been completed. This is the final result of the file size converter app. (see figure 14). This final product ensures functionality with the features from converting to reseting the boxes. In addition we can see how the prototype designed in figma looks very similar which ensures we completed the project design correctly. Although this sprint is finished, there is always continous integration and deployments from best practices and new software releases being made to meet customer needs, while ensuring tests are automated, the code is accurate and having a larger development team which results in more contributions and ideas for enhancements. 
 
 <br>
