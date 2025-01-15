@@ -210,7 +210,7 @@ Now that all the tickets/issues and sprints have been completed. This is the fin
 
 <br>
 <p align="center">
-  <img src="images/Figure 14.png"/><br>
+  <img src="images/Figure 14..png"/><br>
   <em>Figure 14 - File Size Converter App</em>
 </p>
 <br>
