@@ -62,7 +62,7 @@ For example the user wants has a 1543 byte file and wants to convert it to kilob
 
 <br>
 <p align="center">
-  <img src="images/figure 1.png"/><br>
+  <img src="images/Figure 1.png"/><br>
   <em>_Figure 1 - example of how to use the app _</em>
 </p>
 <br>
