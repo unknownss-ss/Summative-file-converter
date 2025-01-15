@@ -74,15 +74,26 @@ For example the user wants has a 1543 byte file and wants to convert it to kilob
 
 Before starting on the development and planning of this app, a flowchart has been created. This provides a basic understanding and clarity of the process, which will help in the development and testing stage. 
 
-In figure 1 the process starts with creating the prototype, project management and tickets which is initally the development stage. The process consists of working on the ticket, testing and depending on the success it moves to a pull request and is pushed to the main code. If the ticket fails at any point it goes back to the developing stage to solve the bug. Once all the tickets are completed and the main code is tested the app is successfuly completed. 
+In figure 2 the process starts with creating the prototype, project management and tickets which is initally the development stage. The process consists of working on the ticket, testing and depending on the success it moves to a pull request and is pushed to the main code. If the ticket fails at any point it goes back to the developing stage to solve the bug. Once all the tickets are completed and the main code is tested the app is successfuly completed. 
 
+<br>
+<p align="center">
+  <img src="images/Figure 2.png"/><br>
+  <em>Figure 2 - Flowchart </em>
+</p>
+<br>
 
 ## Design 
 Before developing the code i used figma to create a prototype for the app. By refining the design before implementation it provides visualisation of the layout and functionality which reduces the time needed to make changes. 
 
-When designing it is important to take into account the users needs, while focusing on simplicity and efficiency. This design ensures functionality with the simple layout for users to enter their data via dropdown boxes which prevent human error/mistakes (see figure 2). The use of neutral tones also enhances user experience through the consistency and clarity as the interface is approachable and easy to understand/use.
+When designing it is important to take into account the users needs, while focusing on simplicity and efficiency. This design ensures functionality with the simple layout for users to enter their data via dropdown boxes which prevent human error/mistakes (see figure 3). The use of neutral tones also enhances user experience through the consistency and clarity as the interface is approachable and easy to understand/use.
  
-figure 2 
+<br>
+<p align="center">
+  <img src="images/Figure 3.png"/><br>
+  <em>Figure 3 - Prototype of design </em>
+</p>
+<br>
 
 
 ## Project planning 
@@ -97,50 +108,137 @@ This project uses agile due to the visibility with the customer/user being able 
 For task management each task/feature or enhancement will be an issue that is created on github which helps to maintain the development ensuring all tasks are completed throughout each sprint. As the developer i will branch out each issue from the main code which prevents any error during the iterations. To track the progress of the issues i will use a kanban board which helps visualise and maintain the workflow ensuring the project meet the deadline, while making sure each issue is completed.
  
 ### Creating tickets
-As there are mutliple features being used, i created issues, these will be linked to the kanban board. With each issue they will be branched where the iteration will take place, then a pull request is needed for the changes to be made to the main code. See figure 3 which is an example of an issue, containing the description and objectives of how it will be completed. and figure 4 shows my ticketing system where each are labelled.
+As there are mutliple features being used, i created issues, these will be linked to the kanban board. With each issue they will be branched where the iteration will take place, then a pull request is needed for the changes to be made to the main code. See figure 4 which is an example of an issue, containing the description and objectives of how it will be completed. and figure 5 shows my ticketing system where each are labelled.
+
+<br>
+<p align="center">
+  <img src="images/Figure 4.png"/><br>
+  <em>Figure 4 - example of ticket </em>
+</p>
+<br>
+
+<br>
+<p align="center">
+  <img src="images/Figure 5.png"/><br>
+  <em>Figure 5 - Ticketing system </em>
+</p>
+<br>
 
 ### Project kanban board 
-To manage the issues/tickets as mentioned before the project management tool kanban board is used, in figure 5 we can see how there are different sections to help understand what process each issue is at, with all being in the backlog right now. 
+To manage the issues/tickets as mentioned before the project management tool kanban board is used, in figure 6 we can see how there are different sections to help understand what process each issue is at, with all being in the backlog right now. 
 
-Figure 5 
+<br>
+<p align="center">
+  <img src="images/Figure 6.png"/><br>
+  <em>Figure 6 - starting kanban board </em>
+</p>
+<br>
 
 ### Development of code
 
 To start working on the project i first need to cloned it into VS code. For this project the first ticket was to create the files which consist of the HTML,CSS and JavaScript. Once this was completed i started working on the other tickets such as: 
 
 #### Adding a title - branch
-With this ticket, i first created a branch which was called 'adding-a-title' this helps with future iterations if there needs to be any updates made. This branch was transferred into VS code so i can start coding. The ticket contains the description and specifications needed seen in figure 6. By working on the branch it prevents bugs and risks from impacting the main code while being developed.  
+With this ticket, i first created a branch which was called 'adding-a-title' this helps with future iterations if there needs to be any updates made. This branch was transferred into VS code so i can start coding. The ticket contains the description and specifications needed seen. By working on the branch it prevents bugs and risks from impacting the main code while being developed.  
 
 
-Once the title was created, meeting all the requirements in VS code, i needed to commit the change to the main file. Once the commit was done a notification would show (see figure 7) that there has been changes and the pull request is ready to occur. In addition a way to see if the commit has occurred is an notification (see figure 8) would tell you how many commits the branch is ahead. Once the pull request is created, it needs to be merged, which must be approved (see figure 9). Once approved it moved it now in the main. Seen in figure 10 for the updated version of the app.
+Once the title was created, meeting all the requirements in VS code, i needed to commit the change to the main file. Once the commit was done a notification would show (see figure 7) that there has been changes and the pull request is ready to occur. In addition a way to see if the commit has occurred is an notification (see figure 8) would tell you how many commits the branch is ahead. Once the pull request is created, it needs to be merged, which must be approved (see figure 9). Once approved it moved it now in the main. See figure 10 for the updated version of the app.
 
+
+<br>
+<p align="center">
+  <img src="images/Figure 7.png"/><br>
+  <em>Figure 7 - Commit notification </em>
+</p>
+<br>
+
+<br>
+<p align="center">
+  <img src="images/Figure 8.png"/><br>
+  <em>Figure 8 - Commit ahead notification </em>
+</p>
+<br>
+
+<br>
+<p align="center">
+  <img src="images/Figure 9.png"/><br>
+  <em>Figure 9 - pull request  </em>
+</p>
+<br>
+
+<br>
+<p align="center">
+  <img src="images/Figure 10.png"/><br>
+  <em>Figure 10 - Heading added to app</em>
+</p>
+<br>
 
 #### Solving bugs - Input containing letters
 
-As this app contains conversions, there can be errors when manually testing the result. For example when testing the convert button ticket and a letter is included in the input, as this app focuses on the conversion of numbers this causes an error in the code. As a result another ticket would have to be made (see figure 10) where the javascript would need to be updated and instead an error message is provided so the user is aware of what happened (see figure 11).
+As this app contains conversions, there can be errors when manually testing the result. For example when testing the convert button ticket and a letter is included in the input, as this app focuses on the conversion of numbers this causes an error in the code. As a result another ticket would have to be made (see figure 11) where the javascript would need to be updated and instead an error message is provided so the user is aware of what happened (see figure 12).
  
+<br>
+<p align="center">
+  <img src="images/Figure 11.png"/><br>
+  <em>Figure 11 - Bug ticket</em>
+</p>
+<br>
 
-FIgure 10 - bug ticket 
-figure 11 - error message when letter is entered 
+<br>
+<p align="center">
+  <img src="images/Figure 12.png"/><br>
+  <em>Figure 12 - Error message shown</em>
+</p>
+<br>
+
+
 
 
 ### Updated kanban 
-By working on each ticket and developing the app, the kanban board is updated automatically. From being in progress, in review to completed. In figure 12 we can see the progression linking to the sprints, where all the core features have been completed, while the enhancements are currently being worked on. 
+By working on each ticket and developing the app, the kanban board is updated automatically. From being in progress, in review to completed. In figure 13 we can see the progression linking to the sprints, where all the core features have been completed, while the enhancements are currently being worked on. 
 
+
+<br>
+<p align="center">
+  <img src="images/Figure 13.png"/><br>
+  <em>Figure 13 - Updated kanban board</em>
+</p>
+<br>
 
 ## Final product 
-Now that all the tickets/issues and sprints have been completed. This is the final result of the file converter app. (see figure 13). This final product ensures functionality with the features from converting to reseting the boxes. Although this sprint is finished, there is always continous integration and deployments from best practices and new software releases being made to meet customer needs, while ensuring tests are automated, the code is accurate and having a larger development team which results in more contributions and ideas for enhancements. 
+Now that all the tickets/issues and sprints have been completed. This is the final result of the file size converter app. (see figure 14). This final product ensures functionality with the features from converting to reseting the boxes. Although this sprint is finished, there is always continous integration and deployments from best practices and new software releases being made to meet customer needs, while ensuring tests are automated, the code is accurate and having a larger development team which results in more contributions and ideas for enhancements. 
 
+<br>
+<p align="center">
+  <img src="images/Figure 14.png"/><br>
+  <em>Figure 14 - File Size Converter App</em>
+</p>
+<br>
 
 ## Unit testing 
 
 Throughout this project it is important to constantly be testing the code not just the user interface. This way errors can be identified quickly and solved. For this project unit testing with jest will be used. Unit testing is when specific parts of the code is tested individually to check if the correct outcome is produced. Jest is used in this situation due to the use of javascript. 
 
-For unit testing with jest there will be 4 components that are tested. The first is a smoke test, this checks whether jest testing is actually working to ensure accuracy. The second test was to see whether the results would be rounded to 2 decimal points, which was a bug issue before. As the app is a converter, i had to add 3 inputs, the file size and then the file type and the file type i want it to be converted. To check this test i tested it with the correct input with 1024,435 going from bytes to kilobytes and the answer should be 1.00 (see figure 14). However i entered an incorrect input of 2024.435 which should result to 2.00 but the unit jest testing is expecting 1.00 so we can see it failed the testing.(see figure 15)
+For unit testing with jest there will be 4 components that are tested. The first is a smoke test, this checks whether jest testing is actually working to ensure accuracy. The second test was to see whether the results would be rounded to 2 decimal points, which was a bug issue before. As the app is a converter, i had to add 3 inputs, the file size and then the file type and the file type i want it to be converted. To check this test i tested it with the correct input with 1024,435 going from bytes to kilobytes and the answer should be 1.00 (see figure 15). However i entered an incorrect input of 2024.435 which should result to 2.00 but the unit jest testing is expecting 1.00 so we can see it failed the testing.(see figure 16)
 
-The third and fourth test was to see what would happen if a negative number and letter would be entered, initially from the javascript coded it should provide an error message as it cannot convert that data, which from figure 14 we can see it passed, which is how the app can function correctly. 
+The third and fourth test was to see what would happen if a negative number and letter would be entered, initially from the javascript coded it should provide an error message as it cannot convert that data, which from figure 15 we can see it passed, which is how the app can function correctly. 
 
+<br>
+<p align="center">
+  <img src="images/Figure 15.png"/><br>
+  <img src="images/Figure 15-test.png"/><br>
+  <em>Figure 15 - Jest testing - passed </em>
+</p>
+<br>
 
+<br>
+<p align="center">
+  <img src="images/Figure 16.png"/><br>
+  <img src="images/Figure 16-test.png"/><br>
+  <img src="images/Figure 16 -testing.png"/><br>
+  <em>Figure 16 - Failed testing for 2dp </em>
+</p>
+<br>
 
 
 ## Evaluation 
