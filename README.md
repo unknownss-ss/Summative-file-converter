@@ -62,14 +62,13 @@ For example the user wants has a 1543 byte file and wants to convert it to kilob
 
 <br>
 <p align="center">
-  <img src=""/><br>
-  <em>Figure 3 - Simple flowchart of the web app functionality</em>
+  <img src="images/figure1.png"/><br>
+  <em>_Figure 1 - example of how to use the app _</em>
 </p>
 <br>
 
 
-![image](https://github.com/user-attachments/assets/fbf78311-2534-4946-a608-a16256efe5a0)
-_Figure 1 example of how to use the app_
+
 
 ### Flowchart 
 
