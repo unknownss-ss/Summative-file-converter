@@ -20,15 +20,26 @@ Languages/tools used:
 
 To run project locally: 
 
+With SSH: 
+``` bash
+git@github.com:unknownss-ss/Summative-file-converter.git
+```
+
 Without SSH: 
 
-
+```bash
+git clone https://github.com/unknownss-ss/Summative-file-converter.git
+```
 To install Jest: 
-
+```bash
+npm install
+```
 
 To run tests: 
 
-
+```bash
+npm test
+```
 
 
 ## Introduction 
@@ -49,6 +60,16 @@ In the app there are 4 boxes, the first box which says 'Enter file size value' i
 
 For example the user wants has a 1543 byte file and wants to convert it to kilobytes. Here is how it would look like: 
 
+<br>
+<p align="center">
+  <img src=""/><br>
+  <em>Figure 3 - Simple flowchart of the web app functionality</em>
+</p>
+<br>
+
+
+![image](https://github.com/user-attachments/assets/fbf78311-2534-4946-a608-a16256efe5a0)
+_Figure 1 example of how to use the app_
 
 ### Flowchart 
 
