@@ -52,11 +52,9 @@ This app is benefical in a large tech firm as it prevents errors from occurring 
 
 ## User documentation
 
-This app contains different features and enhancements, being able to convert the code, switch the data from the boxes and reset/clear all the boxes and data 
-
 ### How to use the app 
 
-In the app there are 4 boxes, the first box which says 'Enter file size value' is where the user enters their current file size value. The user also selects from the drop down box the current size, the app only works with sizes bytes to gigabytes. In the boxes below the user selects from the drop down box what they want their file to be converted to. The user clicks the convert button and the results are displayed in the 'results' box. 
+In the app there are 4 boxes, the first box which says 'Enter file size value' is where the user enters their current file size value. The user also selects from the drop down box the files current size, the app only works with sizes bytes to gigabytes. In the boxes below the user selects from the drop down box what they want their file to be converted to. The user clicks the convert button and the results are displayed in the 'results' box. Users are also able to clear the boxes, and switch the data around.
 
 For example the user wants has a 1543 byte file and wants to convert it to kilobytes. Here is how it would look like: 
 
@@ -72,9 +70,9 @@ For example the user wants has a 1543 byte file and wants to convert it to kilob
 
 ### Flowchart 
 
-Before starting on the development and planning of this app, a flowchart has been created. This provides a basic understanding and clarity of the process, which will help in the development and testing stage. 
+Before starting on the development and planning for this app, a flowchart has been created. This provides a basic understanding and clarity of the process, which will help in the development and testing stage. 
 
-In figure 2 the process starts with creating the prototype, project management and tickets which is initally the development stage. The process consists of working on the ticket, testing and depending on the success it moves to a pull request and is pushed to the main code. If the ticket fails at any point it goes back to the developing stage to solve the bug. Once all the tickets are completed and the main code is tested the app is successfuly completed. 
+In figure 2 the process starts with creating the prototype, project management and tickets which is initally the development stage. The process consists of working on a ticket, testing and depending on the success it moves to a pull request and is pushed to the main code. If the ticket fails at any point it goes back to the development stage to solve the bug. Once all the tickets are completed and the main code is tested the app is successfuly completed. 
 
 <br>
 <p align="center">
@@ -101,9 +99,9 @@ When starting a project there are multiple techniques, tools, methodologies and 
 
 ### Agile methodology 
 
-This project will follow the agile methodology, with there being 2 sprints involved although there is a short amount of time given for this project. The first sprint consists of the core functions and testing to ensuring the basic features such as converting the file work. The second sprint is where the enhancements and unit testing will occur. Each sprint will last around 3 weeks due to the lack of developers (only me), however if given more time and a team this could consist of more sprints, adding more personal touches/aesthetics/enhancements to meet the business needs while enable collaboration and communication. 
+This project will follow the agile methodology, with there being 2 sprints involved although there is a short amount of time given for this project. The first sprint consists of the core functions and testing to ensuring the basic features such as converting the file work. The second sprint is where the enhancements and further unit testing will occur. Each sprint will last around 3 weeks due to the lack of developers (only me), however if given more time and a team this could consist of more sprints, adding more personal touches/aesthetics/enhancements to meet the business needs while enabling collaboration and communication. 
 
-This project uses agile due to the visibility with the customer/user being able to give their feedback and make changes through each sprint, as this app is user centric it is important to make the adjustments for the interface and features early on. As the project is small the development is flexibile and iterative, resulting in a quicker time for the app to be developed, as each feature would be an iteration which results in a MVP being created/released quicker. In addition agile allows there to be continous improvements and reduces risks as all challenges are addressed early on and if needed the issues can be escalated during the daily scrum meetings.
+This project uses agile to ensure visibility with the customer/user as they are able to give their feedback and as this app is user centric it is important to make the adjustments for the interface and features early on. As the project is small the development is flexibile and iterative, resulting in a quicker time for the app to be developed, as each feature would be an iteration which results in a MVP being created/released quicker. In addition agile allows there to be continous improvements and reduces risks as all challenges are addressed early on and if needed the issues can be escalated during the daily scrum meetings.
 
 For task management each task/feature or enhancement will be an issue that is created on github which helps to maintain the development ensuring all tasks are completed throughout each sprint. As the developer i will branch out each issue from the main code which prevents any error during the iterations. To track the progress of the issues i will use a kanban board which helps visualise and maintain the workflow ensuring the project meet the deadline, while making sure each issue is completed.
  
@@ -142,7 +140,7 @@ To start working on the project i first need to cloned it into VS code. For this
 With this ticket, i first created a branch which was called 'adding-a-title' this helps with future iterations if there needs to be any updates made. This branch was transferred into VS code so i can start coding. The ticket contains the description and specifications needed seen. By working on the branch it prevents bugs and risks from impacting the main code while being developed.  
 
 
-Once the title was created, meeting all the requirements in VS code, i needed to commit the change to the main file. Once the commit was done a notification would show (see figure 7) that there has been changes and the pull request is ready to occur. In addition a way to see if the commit has occurred is an notification (see figure 8) would tell you how many commits the branch is ahead. Once the pull request is created, it needs to be merged, which must be approved (see figure 9). Once approved it moved it now in the main. See figure 10 for the updated version of the app.
+Once the title was created, meeting all the requirements in VS code, i needed to commit the change to the main file. Once the commit was done a notification would show (see figure 7) that there has been changes and the pull request is ready to occur. In addition a way to see if the commit has occurred is an notification (see figure 8) would tell you how many commits the branch is ahead. Once the pull request is created, it needs to be merged, which must be approved (see figure 9). Once approved it moves into the main. See figure 10 for the updated version of the app.
 
 
 <br>
@@ -206,7 +204,7 @@ By working on each ticket and developing the app, the kanban board is updated au
 <br>
 
 ## Final product 
-Now that all the tickets/issues and sprints have been completed. This is the final result of the file size converter app. (see figure 14). This final product ensures functionality with the features from converting to reseting the boxes. Although this sprint is finished, there is always continous integration and deployments from best practices and new software releases being made to meet customer needs, while ensuring tests are automated, the code is accurate and having a larger development team which results in more contributions and ideas for enhancements. 
+Now that all the tickets/issues and sprints have been completed. This is the final result of the file size converter app. (see figure 14). This final product ensures functionality with the features from converting to reseting the boxes. In addition we can see how the prototype designed in figma looks very similar which ensures we completed the project design correctly. Although this sprint is finished, there is always continous integration and deployments from best practices and new software releases being made to meet customer needs, while ensuring tests are automated, the code is accurate and having a larger development team which results in more contributions and ideas for enhancements. 
 
 <br>
 <p align="center">
@@ -219,7 +217,7 @@ Now that all the tickets/issues and sprints have been completed. This is the fin
 
 Throughout this project it is important to constantly be testing the code not just the user interface. This way errors can be identified quickly and solved. For this project unit testing with jest will be used. Unit testing is when specific parts of the code is tested individually to check if the correct outcome is produced. Jest is used in this situation due to the use of javascript. 
 
-For unit testing with jest there will be 4 components that are tested. The first is a smoke test, this checks whether jest testing is actually working to ensure accuracy. The second test was to see whether the results would be rounded to 2 decimal points, which was a bug issue before. As the app is a converter, i had to add 3 inputs, the file size and then the file type and the file type i want it to be converted. To check this test i tested it with the correct input with 1024,435 going from bytes to kilobytes and the answer should be 1.00 (see figure 15). However i entered an incorrect input of 2024.435 which should result to 2.00 but the unit jest testing is expecting 1.00 so we can see it failed the testing.(see figure 16)
+For unit testing with jest there will be 4 components that are tested. The first is a smoke test, this checks whether jest testing is actually working to ensure accuracy. The second test was to see whether the results would be rounded to 2 decimal points, which was a bug issue before. As the app is a converter, i had to add 3 inputs, the file size, the file type and the new file type i want. To check this test i entered the correct input with 1024,435 going from bytes to kilobytes and the answer should be 1.00 (see figure 15). However it is important to check what would happen if i entered an incorrect input of 2024.435 which should result to 2.00 but the unit jest testing is expecting 1.00 so we can see it failed the testing.(see figure 16)
 
 The third and fourth test was to see what would happen if a negative number and letter would be entered, initially from the javascript coded it should provide an error message as it cannot convert that data, which from figure 15 we can see it passed, which is how the app can function correctly. 
 
@@ -247,8 +245,8 @@ Overall this project allowed me as the developer to gain knowledge on the progra
 
 In this project i did have a difficult beginning with setting up the github clone repository via VS code, due to all the different packages that needed to be downloaded, and using a windows laptop meant there were more steps to be completed, however i was able to sort it out by problem solving and asking for help. 
 
-This project allowed me use features such as using branches and pull requests which were for all of the tickets/issues created. With branches i was able to add code while testing the outcome without the main code being impacted. Whereas the pull requests where used to push to the main code and being approved by myself as the only developer, however in a wider team the head of development would approve these requests to ensure the code is accurate and does not provide any bugs. During this project i also used jest testing due to the use of javascript which ensured all the functions in the app provide the right outcome. 
+This project allowed me to use features such as using branches and pull requests which were for all of the tickets/issues created. With branches i was able to add code while testing the outcome without the main code being impacted. Whereas the pull requests was used to push to the main code and be approved by myself as the only developer, however in a wider team the head of development would approve these requests to ensure the code is accurate and does not provide any bugs. During this project i also used jest testing due to the use of javascript which ensured all the functions in the app provide the right outcome. 
 
-In conclusion i was able to complete a fully functioning file size converter app. This project was completed in 2 sprints, providing core features and enhancements to improve user interface. I was able to use different tools for testing and managing the project, which helped with the project running smoothly and meeting all the targets and tickets without issues. 
+In conclusion i was able to complete a fully functioning file size converter app. This project was completed in 2 sprints, providing core features and enhancements to improve user interface. I was able to use different tools for testing and managing the project, which helped with the project running smoothly and meeting all the targets and tickets without issues while meeting the design and functionality created via the prototype. 
 
 
